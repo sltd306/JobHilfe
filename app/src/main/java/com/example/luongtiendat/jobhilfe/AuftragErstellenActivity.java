@@ -22,6 +22,9 @@ import java.util.Random;
 
 public class AuftragErstellenActivity extends AppCompatActivity {
 
+    //hdksfgskjfgbkjbfsf
+    //kjbkjsbdkfsdf
+
     private static final int MAX_LENGTH = 10;
     public TextInputLayout mTitel,mStellenBeschreibung,mArbeitZeit,mArbeitOrt,mVergutung,mBeginn;
     private Button mAuftragBtn;
