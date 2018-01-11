@@ -67,9 +67,9 @@ public class AuftragErstellenActivity extends AppCompatActivity {
             final @SuppressWarnings("VisibleForTests")String vergutung = mVergutung.getEditText().getText().toString();
             final @SuppressWarnings("VisibleForTests")String beginn = mBeginn.getEditText().getText().toString();
 
-            if(!TextUtils.isEmpty(titel) ||!TextUtils.isEmpty(stellenBeschreibung) ||
-                    !TextUtils.isEmpty(arbeitZeit) ||!TextUtils.isEmpty(arbeitOrt)
-                    || !TextUtils.isEmpty(vergutung) ||!TextUtils.isEmpty(beginn)){
+            if(!TextUtils.isEmpty(titel) && !TextUtils.isEmpty(stellenBeschreibung) &&
+                    !TextUtils.isEmpty(arbeitZeit) && !TextUtils.isEmpty(arbeitOrt)
+                    &&  !TextUtils.isEmpty(vergutung) && !TextUtils.isEmpty(beginn)){
                 auftragErstellen(titel,stellenBeschreibung,arbeitZeit,arbeitOrt,vergutung,beginn);
                 finish();
 
@@ -86,7 +86,7 @@ public class AuftragErstellenActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         mCurrentUser = FirebaseAuth.getInstance().getCurrentUser();
         String current_uid= mCurrentUser.getUid();
-        final @SuppressWarnings("VisibleForTests")String status = "0";
+        //final @SuppressWarnings("VisibleForTests")String status = "0";
 
         mAuftragDatabase = FirebaseDatabase.getInstance().getReference().child("Auftrags");
 
@@ -99,7 +99,7 @@ public class AuftragErstellenActivity extends AppCompatActivity {
         auftragMap.put("beginn",beginn);
         auftragMap.put("userId",current_uid);
         auftragMap.put("mUser","default");
-        auftragMap.put("status",status);
+        auftragMap.put("status","default");
 
         String auftrag_id = random();
 
