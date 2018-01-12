@@ -47,7 +47,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Auftrag Referen"
+                    android:text="@string/auftragsreferenz"
                     android:textStyle="bold"/>
 
                 <TextView
@@ -81,7 +81,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Titel"
+                    android:text="@string/titel"
                     android:textStyle="bold"/>
 
                 <TextView
@@ -115,7 +115,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Arbeit Geber"
+                    android:text="@string/arbeitgeber"
                     android:textStyle="bold"/>
 
                 <TextView
@@ -150,7 +150,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Stellen Beschreibung"
+                    android:text="@string/stellenbeschreibung"
                     android:textStyle="bold"/>
 
                 <TextView
@@ -159,7 +159,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentStart="true"
                     android:layout_marginTop="30dp"
-                    android:text="Beschreibung"
+                    android:text="@string/beschreibung"
                     android:textColor="?android:attr/colorEdgeEffect" />
 
 
@@ -184,7 +184,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Arbeit Ort"
+                    android:text="@string/arbeitsort"
                     android:textStyle="bold"/>
 
                 <TextView
@@ -218,7 +218,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Beginn der Tätigkeit"
+                    android:text="@string/beginn_taetig"
                     android:textStyle="bold"/>
 
                 <TextView
@@ -253,7 +253,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Arbeit Zeit"
+                    android:text="@string/arbeitszeit"
                     android:textStyle="bold"/>
 
                 <TextView
@@ -288,7 +288,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Vergüttung und Zusatzleistung"
+                    android:text="@string/vergütung"
                     android:textStyle="bold"/>
 
                 <TextView
@@ -297,7 +297,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentStart="true"
                     android:layout_marginTop="30dp"
-                    android:text="geld"
+                    android:text="@string/geld"
                     android:textColor="?android:attr/colorEdgeEffect" />
 
 
@@ -321,7 +321,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Kontaktdaten: "
+                    android:text="@string/kontaktdaten"
                     android:textStyle="bold" />
 
                 <LinearLayout
@@ -342,7 +342,7 @@
                         android:id="@+id/textView2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Telefonnummer:"
+                        android:text="@string/telefonnummer"
                         android:textStyle="bold" />
 
                     <TextView
@@ -409,7 +409,7 @@
                     android:id="@+id/auftrag_status"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Öffenen Bewerbung: "
+                    android:text="@string/offen_bewerbung"
                     android:textStyle="bold" />
 
                 <android.support.v7.widget.RecyclerView
@@ -428,7 +428,7 @@
                 android:layout_marginLeft="80dp"
                 android:layout_marginTop="50dp"
                 android:background="@color/btnSignActive"
-                android:text="Bewerben"
+                android:text="@string/bewerben"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/relativeLayout10" />
@@ -440,7 +440,7 @@
                 android:layout_marginLeft="80dp"
                 android:layout_marginTop="50dp"
                 android:background="@color/btnSignActive"
-                android:text="Cancel request"
+                android:text="@string/bewerbung_zurück"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/auftrag_bewerben_btn" />

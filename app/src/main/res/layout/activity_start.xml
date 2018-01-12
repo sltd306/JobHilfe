@@ -29,7 +29,6 @@
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Wellcome to Jobhilfe"
             android:textColor="@android:color/black" />
 
 
@@ -52,7 +51,7 @@
             android:layout_margin="8dp"
             android:layout_weight="1"
             android:background="@color/btnSignActive"
-            android:text="Sigup"
+            android:text="@string/registrieren"
             android:textColor="@android:color/black" />
 
         <Button
@@ -62,7 +61,7 @@
             android:layout_margin="8dp"
             android:layout_weight="1"
             android:background="@color/btnSignActive"
-            android:text="Sigin"
+            android:text="@string/einloggen"
             android:textColor="@android:color/black" />
 
 
